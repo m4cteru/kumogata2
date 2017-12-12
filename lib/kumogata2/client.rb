@@ -201,6 +201,7 @@ class Kumogata2::Client
       :notification_arns,
       :capabilities,
       :resource_types,
+      :role_arn,
       :on_failure,
       :stack_policy_body,
       :stack_policy_url,
@@ -247,6 +248,7 @@ class Kumogata2::Client
       :stack_policy_during_update_url,
       :notification_arns,
       :capabilities,
+      :role_arn,
       :resource_types,
       :stack_policy_body,
       :stack_policy_url,
@@ -363,6 +365,7 @@ class Kumogata2::Client
       :use_previous_template,
       :notification_arns,
       :capabilities,
+      :role_arn,
       :resource_types,
       :tags)
     )

@@ -63,6 +63,7 @@ Options:
         --capabilities CAPABILITIES
         --resource-types RESOURCE_TYPES
         --on-failure ON_FAILURE
+        --role-arn ROLE_ARN
         --stack-policy-body STACK_POLICY_BODY
         --stack-policy-url STACK_POLICY_URL
         --[no-]use-previous-template

@@ -122,6 +122,7 @@ module Kumogata2::CLI
         notification_arns: Array,
         capabilities: Array,
         resource_types: Array,
+        role_arn: nil,
         on_failure: nil,
         stack_policy_body: nil,
         stack_policy_url: nil,
